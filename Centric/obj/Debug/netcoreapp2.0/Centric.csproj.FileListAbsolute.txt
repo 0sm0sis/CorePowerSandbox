@@ -1,0 +1,11 @@
+C:\Users\Matt\Desktop\Centric\Centric\bin\Debug\netcoreapp2.0\Centric.deps.json
+C:\Users\Matt\Desktop\Centric\Centric\bin\Debug\netcoreapp2.0\Centric.runtimeconfig.json
+C:\Users\Matt\Desktop\Centric\Centric\bin\Debug\netcoreapp2.0\Centric.runtimeconfig.dev.json
+C:\Users\Matt\Desktop\Centric\Centric\bin\Debug\netcoreapp2.0\Centric.dll
+C:\Users\Matt\Desktop\Centric\Centric\bin\Debug\netcoreapp2.0\Centric.pdb
+C:\Users\Matt\Desktop\Centric\Centric\obj\Debug\netcoreapp2.0\Centric.csprojResolveAssemblyReference.cache
+C:\Users\Matt\Desktop\Centric\Centric\obj\Debug\netcoreapp2.0\Centric.csproj.CoreCompileInputs.cache
+C:\Users\Matt\Desktop\Centric\Centric\obj\Debug\netcoreapp2.0\Centric.AssemblyInfoInputs.cache
+C:\Users\Matt\Desktop\Centric\Centric\obj\Debug\netcoreapp2.0\Centric.AssemblyInfo.cs
+C:\Users\Matt\Desktop\Centric\Centric\obj\Debug\netcoreapp2.0\Centric.dll
+C:\Users\Matt\Desktop\Centric\Centric\obj\Debug\netcoreapp2.0\Centric.pdb
