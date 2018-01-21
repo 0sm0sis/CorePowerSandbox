@@ -1,7 +1,7 @@
 
 (function() {
     'use strict';
-
+    
     $(initSettings);
 
     function initSettings() {
@@ -58,9 +58,10 @@
         $('#sidebar-showtoolbar').change(function() {
             sidebarToolbar[this.checked ? 'show' : 'hide']();
         });
-
-        $('#sidebar-offcanvas').change(function() {
+        
+        $('#sidebar-offcanvas')(function() {
             body[this.checked ? 'addClass' : 'removeClass']('sidebar-offcanvas');
+            console.log("yep");
         });
     }
 

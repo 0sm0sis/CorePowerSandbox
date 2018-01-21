@@ -12544,11 +12544,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matt\\Desktop\\Centric\\Centric\\Centric.csproj",
+      "projectUniqueName": "C:\\CorePowerPlanner\\Centric\\Centric\\Centric.csproj",
       "projectName": "Centric",
-      "projectPath": "C:\\Users\\Matt\\Desktop\\Centric\\Centric\\Centric.csproj",
+      "projectPath": "C:\\CorePowerPlanner\\Centric\\Centric\\Centric.csproj",
       "packagesPath": "C:\\Users\\Matt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matt\\Desktop\\Centric\\Centric\\obj\\",
+      "outputPath": "C:\\CorePowerPlanner\\Centric\\Centric\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -462,3 +462,9 @@
         </ul>
     </nav>
 </div>
+
+@* Script leaves sidebar off screen on render. *@
+<script>
+    var a = document.getElementsByTagName("body");
+    a[0].classList.add("sidebar-offcanvas");
+</script>
