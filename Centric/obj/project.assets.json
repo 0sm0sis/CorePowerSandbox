@@ -2735,6 +2735,9 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "Node.js.redist/8.9.1": {
+        "type": "package"
+      },
       "Remotion.Linq/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -7555,6 +7558,20 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "Node.js.redist/8.9.1": {
+      "sha512": "ObyxEdcxVDcCrk9gckF4dLOK5cM/ODjYV5TwQHww0EkTXi+V18IrwBrOKQLXzwhRAsAX0AKQt5eBio4JniHZSA==",
+      "type": "package",
+      "path": "node.js.redist/8.9.1",
+      "files": [
+        "node.js.redist.8.9.1.nupkg.sha512",
+        "node.js.redist.nuspec",
+        "tools/linux-x64/node",
+        "tools/linux-x86/node",
+        "tools/osx-x64/node",
+        "tools/win-x64/node.exe",
+        "tools/win-x86/node.exe"
       ]
     },
     "Remotion.Linq/2.1.1": {
@@ -12531,11 +12548,13 @@
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.AspNetCore.Mvc >= 2.0.0",
       "Microsoft.AspNetCore.StaticFiles >= 2.0.0",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "Node.js.redist >= 8.9.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Matt\\.nuget\\packages\\": {},
+    "C:\\Users\\joshc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12544,18 +12563,20 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\CorePowerPlanner\\Centric\\Centric\\Centric.csproj",
+      "projectUniqueName": "C:\\Users\\joshc\\Source\\Repos\\CorePowerPlanner\\Centric\\Centric.csproj",
       "projectName": "Centric",
-      "projectPath": "C:\\CorePowerPlanner\\Centric\\Centric\\Centric.csproj",
-      "packagesPath": "C:\\Users\\Matt\\.nuget\\packages\\",
-      "outputPath": "C:\\CorePowerPlanner\\Centric\\Centric\\obj\\",
+      "projectPath": "C:\\Users\\joshc\\Source\\Repos\\CorePowerPlanner\\Centric\\Centric.csproj",
+      "packagesPath": "C:\\Users\\joshc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joshc\\Source\\Repos\\CorePowerPlanner\\Centric\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Matt\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\joshc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12578,22 +12599,26 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
           "Microsoft.AspNetCore.Mvc": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
           "Microsoft.AspNetCore.StaticFiles": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
+          },
+          "Node.js.redist": {
+            "target": "Package",
+            "version": "[8.9.1, )"
           }
         },
         "imports": [
